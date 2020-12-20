@@ -93,3 +93,5 @@ target_compile_definitions( glslang PRIVATE
 	ENABLE_OPT=1
 	ENABLE_HLSL=1
 )
+
+target_include_directories(glslang PRIVATE ${BGFX_DIR}/3rdparty)
